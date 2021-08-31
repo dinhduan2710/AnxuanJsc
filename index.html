@@ -1,164 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- CSS only -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.min.css">
-    <!-- <link rel="stylesheet" href="Css/all.css"> -->
-
-    <!-- <script src="JS/all.js"></script> -->
-    <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v5.13.0/css/pro.min.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
-
 <body>
-    <div id="wrapper">
-        <div id="header">
-            <div id="header-1">
-                <div class="d-flex bd-highlight wraper-header-1">
-                    <div class="flex-grow-1 bd-highlight">
-                        <div class="d-flex bd-highlight header-left">
-                            <div class="p-2 bd-highlight">
-                                <a href="#">Trang chủ</a>
-                            </div>
-                            <div class="p-2 bd-highlight">
-                                <a href="#">Giới Thiệu</a>
-                            </div>
-                            <div class="p-2 bd-highlight">
-                                <a href="#">Sơ đồ chỉ đường</a>
-                            </div>
-                            <div class="p-2 bd-highlight">
-                                <a href="#">Liên hệ</a>
-                            </div>
-                        </div>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="image/logo.png" alt="">
+        </a>
+        <nav class="navbar">
+            <div class="list-item-category">Danh mục sản phẩm
+                <ul class="list-item">
+                    <div>
+                        <li><a href="#">in uv trên mọi chất liệu</a></li>
+                        <li><a href="#">gia công chữ nổi 3D</a></li>
+                        <li><a href="#">in bạt DECAL</a></li>
+                        <li><a href="#">Cắt uốn hàn</a></li>
+                        <li><a href="#">Dự án mới hoàn thành</a></li>
+                        <li><a href="#">Biển hộp đèn</a></li>
+                        <li><a href="#">Biển hiệu</a></li>
+                        <li><a href="#">Biển chức danh</a></li>
                     </div>
-                    <div class="bd-highlight">
-                        <div class="d-flex bd-highlight header-right">
-                            <div class="p-2 bd-highlight">
-                                <a href="#">
-                                    Hotline: 0915 593 339  - 0915 593 339 
-                                </a>
-                            </div>
-                            <div class="p-2 bd-highlight">
-                                <a href="#">Email: anxuanjsc@gmail.com</a>
-                            </div>
-                        </div>
-                    </div>
-
+                </ul>
+            </div>
+            <a href="#home">Giới thiệu</a>
+            <a href="#about">công nghệ in uv</a>
+            <a href="#menu">dự án nổi bật</a>
+            <a href="#products">tin tức </a>
+            <a href="#review">liên hệ</a>
+        </nav>
+    
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+    
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-1.png" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">$15.99/-</div>
                 </div>
             </div>
-            <div id="header-2">
-                <div class="container">
-                    <div id="logo">
-                        <img src="image/logo.png" alt="">
-                    </div>
-                    <div id="all-pk">
-                        <a href="#">
-                            <div id="icon">
-                                <i class="fas fa-bars"></i>
-                            </div>
-                            <span>Tất cả danh mục</span>
-                        </a>
-                        <div id="menu-2">
-                            <li>
-                                <a href="#">In UV trên mọi chất liệu</a>
-                            </li>
-                            <li>
-                                <a href="#">Gia công chữ nổi 3D</a>
-                            </li>
-                        </div>
-                    </div>
-                    <div id="search">
-                        <div class="col-xs-12 col-sm-12 col-md-8 search">
-                            <div class="ioqw">
-                                <input type="text" name="search" id="" placeholder="Nhập thứ cần tìm ...">
-                                <button type="submit"><i class="fas fa-search"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-2 cart">
-                        <div class="cart-poi">
-                            <a class="mt-4 mr-2" href="#"> <i class="fas fa-shopping-cart"></i></a>
-                            </a><span class="mt-3">8</span>
-                        </div>
-                    </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-2.png" alt="">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">$15.99/-</div>
                 </div>
             </div>
-            <ul id="menu">
-                <li>
-                    <a href="">Giới thiệu</a>
-                </li>
-                <li>
-                    <a href="">Công nghệ in UV</a>
-                </li>
-                <li>
-                    <a href="">Dự án nổi bật</a>
-                </li>
-                <li>
-                    <a href="">Tư vấn thiết kế</a>
-                </li>
-                <li>
-                    <a href="">Tin Tức</a>
-                </li>
-                <li>
-                    <a href="">Liên Hệ</a>
-                </li>
-            </ul>
-        </div>
-        <div class="clearfix">
-        </div>
-        <div id="slide">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="image/banner/3.jpg" alt="Los Angeles" style="width:100%;">
-                    </div>
-                    <div class="item">
-                        <img src="image/banner/1.jpg" alt="Chicago" style="width:100%;">
-                    </div>
-
-                    <div class="item">
-                        <img src="image/banner/4.jpg" alt="New York" style="width:100%;">
-                    </div>
-                    <div class="item">
-                        <img src="image/banner/2.jpg" alt="New York" style="width:100%;">
-                    </div>
-                    <div class="item">
-                        <img src="image/banner/5.jpg" alt="New York" style="width:100%;">
-                    </div>
-                    <div class="item">
-                        <img src="image/banner/6.jpg" alt="New York" style="width:100%;">
-                    </div>
-
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-3.png" alt="">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">$15.99/-</div>
                 </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-4.png" alt="">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">checkout now</a>
         </div>
-        <div class="clearfix"></div>
+    
+    </header>
+    <div class="slide-banner">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+            <div class="item active">
+                <img data-target="" src="image/cnc.jpg" alt="Los Angeles" style="width:100%;">
+            </div>
+        
+            <div class="item">
+                <img src="image/chu dong.png" alt="Chicago" style="width:100%;">
+            </div>
+            
+            <div class="item">
+                <img src="image/may in.jpg" alt="New york" style="width:100%;">
+            </div>
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
     </div>
-</body>
+    <div class="product block1">
+        <h2>Các sản phẩm nổi bật</h2>
+        <div class="container">
+            <div>
+                <div class="col-xs-6 col-sm-12 col-md-3">
+                    <div class="item-product">
+                        <div class="image">
+                            <img src="./image/chu dong.png" alt="">
+                        </div>
+                        <div class="wraper-inf">
+                            <div class="tag">
+                                biển hiệu  
+                            </div>
+                            <div class="name">
+                                Backdrop - Logo Mica
+                            </div>
+                            <div class="price">
+                                <span>2,700,000đ</span>/m2
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-12 col-md-3">
+                    <div class="item-product">
+                        <div class="image">
+                            <img src="./image/qc1.jpg" alt="">
+                        </div>
+                        <div class="wraper-inf">
+                            <div class="tag">
+                                dự án mới hoàn thành 
+                            </div>
+                            <div class="name">
+                                Dán DECAL xe ô tô
+                            </div>
+                            <div class="price">
+                                <span>2,700,000đ</span>/m2
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-12 col-md-3">
+                    <div class="item-product">
+                        <div class="image">
+                            <img src="./image/qc2.jpg" alt="">
+                        </div>
+                        <div class="wraper-inf">
+                            <div class="tag">
+                                dự án mới hoàn thành 
+                            </div>
+                            <div class="name">
+                                Circle K Quỳnh Mai
+                            </div>
+                            <div class="price">
+                                <span>2,700,000đ</span>/m2
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-12 col-md-3">
+                    <div class="item-product">
+                        <div class="image">
+                            <img src="./image/qc3.jpg" alt="">
+                        </div>
+                        <div class="wraper-inf">
+                            <div class="tag">
+                                dự án mới hoàn thành 
+                            </div>
+                            <div class="name">
+                                Hộp đèn 3M Circle K Ngọc Thuỷ
+                            </div>
+                            <div class="price">
+                                <span>2,700,000đ</span>/m2
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-12 col-md-3">
+                    <div class="item-product">
+                        <div class="image">
+                            <img src="./image/may in.jpg" alt="">
+                        </div>
+                        <div class="wraper-inf">
+                            <div class="tag">
+                                dự án mới hoàn thành   
+                            </div>
+                            <div class="name">
+                                Bộ chữ Inox sáng mặt và sáng chân DrD
+                            </div>
+                            <div class="price">
+                                <span>2,700,000đ</span>/m2
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-12 col-md-3">
+                    <div class="item-product">
+                        <div class="image">
+                            <img src="./image/HUTNOI.png" alt="">
+                        </div>
+                        <div class="wraper-inf">
+                            <div class="tag">
+                                biển hiệu  
+                            </div>
+                            <div class="name">
+                                Backdrop - Logo Mica
+                            </div>
+                            <div class="price">
+                                <span>2,700,000đ</span>/m2
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    
+
+    <script src="js/script.js"></script>
+</body>
 </html>
