@@ -86,6 +86,7 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
+  border-bottom: 1px solid #ccc;
 }
 
 .header .logo img {
@@ -219,7 +220,10 @@ section {
   position: relative;
   color: #333;
   font-size: 1.6rem;
-  width: 200px;
+  /* width: 200px; */
+  margin-right: 20px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .navbar a:hover {
@@ -228,7 +232,7 @@ section {
 .list-item-category .list-item {
   display: none;
   position: absolute;
-  top: 10px;
+  top:11px;
   left: 0;
   width: 240px;
   padding-top: 40px;
@@ -367,11 +371,13 @@ section {
 }
 
 .product-flashsale .card {
-  margin: 0 15px;
+  /* margin: 0 15px; */
+  padding: 0 15px;
+  width: 14.28%;
 }
 
 .card img {
-  width: 132px;
+  width: 100%;
   height: 50px;
 }
 .section-content {
@@ -402,6 +408,12 @@ section {
 .col-sec-conten p {
   margin-top: 15px;
   font-size: 15px;
+  text-align: justify;
+  overflow:hidden!important;
+text-overflow:ellipsis;
+display:-webkit-box;
+-webkit-box-orient:vertical;
+-webkit-line-clamp:3
 }
 .map h3 {
   text-align: center;
@@ -432,6 +444,7 @@ section {
   color: #f4a950;
   padding: 10px 0;
   text-align: center;
+}
 /* media queries  */
 @media (max-width: 991px) {
   html {
@@ -500,6 +513,28 @@ section {
   }
   .slide-banner {
     margin-top: 75px;
+  }
+  .map iframe{
+    width: 100%;
+  }
+  .container{
+    padding: 0;
+  }
+  .product-flashsale{
+    justify-content: center;
+  }
+  .product-flashsale .card{
+    width: 50%;
+    margin: 10px 0;
+  }
+  .col-sec-conten h4 {
+    font-size: 16px;
+  }
+  .section-content ,.partner {
+    padding: 10px 0;
+  }
+  .col-sec-conten p{
+    text-align: center;
   }
 }
 
