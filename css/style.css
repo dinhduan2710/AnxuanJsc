@@ -345,39 +345,93 @@ section {
   border-radius: 25px;
   color: #fbf8be;
   font-weight: 600;
-
 }
 
-.partner{
-    text-align: center;
-    background-color:#e9e9e9 ;
-    padding: 50px 0;
+.partner {
+  text-align: center;
+  background-color: #e9e9e9;
+  padding: 50px 0;
 }
-.partner p{
-    font-size: 15px;
-    margin: 15px 0;
+.partner p {
+  font-size: 15px;
+  margin: 15px 0;
 }
-.partner p span{
-    font-weight: bold;
+.partner p span {
+  font-weight: bold;
 }
 
 .product-flashsale {
-    display: flex;
-    flex-wrap: wrap;
-   margin-top: 30px;
-  }
-  
-.product-flashsale .card{
-    margin: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
 }
-  
 
-  .card img {
-   width: 132px;
-   height: 50px;
-  }
+.product-flashsale .card {
+  margin: 0 15px;
+}
 
-
+.card img {
+  width: 132px;
+  height: 50px;
+}
+.section-content {
+  color: #f4efea;
+  background-color: #164883;
+  text-align: center;
+  padding: 40px 0;
+}
+.section-content h2 {
+  margin-bottom: 20px;
+}
+.section-content p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.col-sec-img img {
+  padding-top: 0.2em;
+  width: 100%;
+  width: 150px;
+  height: 150px;
+}
+.col-inner {
+  padding: 40px 0;
+}
+.col-sec-conten h4 {
+  margin: 20px 0;
+}
+.col-sec-conten p {
+  margin-top: 15px;
+  font-size: 15px;
+}
+.map h3 {
+  text-align: center;
+  margin: 20px 0;
+}
+#map {
+  text-align: center;
+}
+#footer {
+  background-color: #161b21;
+  padding: 40px 0 60px 0;
+  color: #f4a950;
+}
+#footer h5{
+  margin-bottom: 30px;
+}
+#img-footer img{
+  margin: 15px 0;
+  width: 186px;
+  height: 93px;
+}
+#footer p{
+  font-size: 13px;
+  margin-bottom: 26px;
+}
+#footer-bot{
+  background-color: #022354;
+  color: #f4a950;
+  padding: 10px 0;
+  text-align: center;
 /* media queries  */
 @media (max-width: 991px) {
   html {
