@@ -15,9 +15,7 @@
     font-size: 16px ;
 }
 
-.col-inner{
-    margin-left: 65px;
-}
+
 .list{
     text-align: left !important;
     line-height: 1.8;
@@ -52,4 +50,28 @@
         height: 217px;
     }
 }
+@media (max-width: 450px) {
+    #congnghe {
+        padding: 0 5px;
+    }
+    #img-1 img{
+        width: 350px;
+        height: 151px;
+        margin-bottom: 15px;
+
+    }
+    #img .img-2{
+        display:none;
+    }
+    #img img{
+        width: 150px;
+        height: 137px;
+        margin-bottom: 15px;
+    }
+    #img-3 img{
+        width: 150px;
+        margin-bottom: 15px;
+        height: 112px;
+    }
+  }
 
