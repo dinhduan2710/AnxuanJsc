@@ -1,0 +1,55 @@
+.congnghe {
+  margin-top: 75px;
+  padding: 50px 0;
+  text-align: center;
+ color: black;
+}
+#congnghe{
+    padding: 0 62px;
+}
+#p-1{
+    text-align: justify !important;
+  padding: 10px 0;
+    text-align: center;
+    margin: 1.3rem 0;
+    font-size: 16px ;
+}
+
+.col-inner{
+    margin-left: 65px;
+}
+.list{
+    text-align: left !important;
+    line-height: 1.8;
+}
+#img img{
+    width: 300px;
+    height: 275px;
+}
+#img-1 img{
+    width: 1020px;
+    height: 441px;
+}
+#img-3 img{
+    width: 512px;
+    height: 384px;
+}
+
+@media (max-width: 768px) {
+    #congnghe {
+        padding: 0;
+    }
+    #img-1 img{
+        width: 600px;
+        height: 259px;
+    }
+    #img img{
+        width: 180px;
+        height: 165px;
+    }
+    #img-3 img{
+        width: 290px;
+        height: 217px;
+    }
+}
+
