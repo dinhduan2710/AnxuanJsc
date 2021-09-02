@@ -15,7 +15,13 @@
     font-size: 16px ;
 }
 
+#text-555502007 {
+    color: rgb(3, 66, 121);
+}
 
+#text-555502007>* {
+    color: rgb(3, 66, 121);
+}
 .list{
     text-align: left !important;
     line-height: 1.8;
