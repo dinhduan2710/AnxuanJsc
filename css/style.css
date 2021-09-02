@@ -423,9 +423,13 @@ section {
   text-align: center;
 }
 #footer {
-  background-color: #161b21;
+  background-color: #164883;
   padding: 40px 0 60px 0;
+  color: #fff;
+}
+#footer span{
   color: #f4a950;
+  font-weight: 600;
 }
 #footer h5 {
   margin-bottom: 30px;
