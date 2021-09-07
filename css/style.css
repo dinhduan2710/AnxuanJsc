@@ -3,7 +3,7 @@
 :root {
   --main-color: #d3ad7f;
   --black: red;
-  --bg: #f4efea;
+  --bg: #fff;
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);
 }
 
@@ -89,10 +89,20 @@ section {
   padding-top: 15px;
 }
 #search-tong {
-  margin: auto;
+  display: flex;
+    margin: auto;
 }
-#search {
+/* #search {
   margin-left: 25px;
+} */
+.cart{
+  display: block;
+  float: left;
+}
+.cart img{
+  width: 30px;
+  margin-left: 50px;
+  height: 30px;
 }
 #search input {
   border-radius: 10px 0 0 10px;
@@ -200,7 +210,7 @@ section {
 }
 .list-item > div {
   list-style: none;
-  background: var(--bg);
+  background-color: #fff;
   /* padding: 15px 0; */
 }
 .list-item-category:hover .list-item {

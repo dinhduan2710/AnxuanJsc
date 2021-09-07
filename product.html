@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product.css">
+    <title>product</title>
+</head>
+
+<body>
+    <div id="header">
+        <div id="header-logo">
+            <div class="container">
+                <div class="xxxxxx">
+                    <div id="logo">
+                        <a href="index.html" class="logo">
+                            <img src="image/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="fas fa-bars" id="menu-btn"></div>
+                    <div class="header-left">
+                        <div class="col-lg-5" id="search-tong">
+                            <div id="search">
+                                <input type="search" name="search" value="nhập thứ bạn cần tìm" id="">
+                                <button type="submit"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div id="hotline">
+                                <div class="img">
+                                    <img src="image/hotline2.png" alt="">
+                                </div>
+                                <div class="text-hot">
+                                    <h4>Hotline</h4>
+                                    <span>0915 593 339</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div id="hotline">
+                                <div class="img">
+                                    <img src="image/hotline.png" alt="">
+                                </div>
+                                <div class="text-hot">
+                                    <h4>Tư vấn đặt hàng</h4>
+                                    <span>0915 593 339</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header class="header">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="list-item-category ">Danh mục sản phẩm
+                        <ul class="list-item">
+                            <div>
+                                <li><a href="#">in uv trên mọi chất liệu</a></li>
+                                <li><a href="#">gia công chữ nổi 3D</a></li>
+                                <li><a href="#">in bạt DECAL</a></li>
+                                <li><a href="#">Cắt uốn hàn</a></li>
+                                <li><a href="#">Dự án mới hoàn thành</a></li>
+                                <li><a href="#">Biển hộp đèn</a></li>
+                                <li><a href="#">Biển hiệu</a></li>
+                                <li><a href="#">Biển chức danh</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                    <a href="#home">Giới thiệu</a>
+                    <a href="congnghe.html">công nghệ in UV</a>
+                    <a href="#menu">dự án nổi bật</a>
+                    <a href="#products">tin tức </a>
+                    <a href="#review">liên hệ</a>
+                    <div id="search" class="hideDesktop">
+                        <input type="search" name="search" value="nhập thứ bạn cần tìm" id="">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <!-- product -->
+    <div id="product-item-type">
+        <div class="container">
+            <div id="bearcum">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Gia công chữ nổi</li>
+                    </ol>
+                </nav>
+            </div>
+            <div id="product-ct">
+                <div class="col-lg-8 col-xs-6">
+                    <img id="expandedImg" src="image/chu bien mica.png" width="460px" height="460px" style="width:100%">
+                    <div class="row">
+                        <div class="column">
+                            <img src="image/chu dong.png" alt="" width="110px" height="67px" style="width:100%"
+                                onclick="myFunction(this);">
+                        </div>
+                        <div class="column">
+                            <img src="image/HUTNOI.png" alt="" width="110px" height="67px" style="width:100%"
+                                onclick="myFunction(this);">
+                        </div>
+                        <div class="column">
+                            <img src="image/cnc.jpg" alt="" width="110px" height="67px" style="width:100%"
+                                onclick="myFunction(this);">
+                        </div>
+                        <div class="column">
+                            <img src="image/may in.jpg" alt="" width="110px" height="67px" style="width:100%"
+                                onclick="myFunction(this);">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-6">
+                    <div class="single-item-body">
+                        <p class="single-item-title">
+                            Backdrop - Logo mica
+                        </p>
+                        <p class="single-item-price">
+                            <span class="flash-sale">650.000đ /m2</span>
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <!-- <div class="space20">&nbsp;</div> -->
+
+                    <div class="form-button">
+
+                        <div class="col-md-12 theloai">
+                            <label for="mau sac">Số lượng:</label>
+
+                            <select name="soluong" id="soluong">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 baoqr">
+                                <div class="baohanh">
+                                    <ul class="policy">
+                                        <li>
+                                            <i class="fas fa-truck-moving"></i> Giao hàng nhanh trong nội thành
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-medal"></i> <a href="#">Chính sách bảo hành</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="qr-pay">
+
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="muahang">
+                                    <div class="button-thanhtoan">
+                                        <p>Mua Ngay</p>
+                                        <p>(Giao hàng tận nơi hoặc lấy tại cửa hàng)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space20">&nbsp;</div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="dichvu">
+                <div class="col-lg-9 col-xs-9">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#home">Giới thiệu</a></li>
+                        <li><a href="#menu2">Sản phẩm liên quan</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="home" class="tab-pane fade in active">
+                            <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content active"
+                                id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
+
+
+                                <h1 style="text-align: center;"><strong>HÌNH ẢNH THI CÔNG SẢN PHẨM</strong></h1>
+                                <p><img loading="lazy" class="alignnone wp-image-2484 aligncenter"
+                                        src="https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582576096608_a1d80dd75e0898f77e31fa7dadb838b6-300x169.jpg"
+                                        alt="" width="586" height="330"
+                                        srcset="https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582576096608_a1d80dd75e0898f77e31fa7dadb838b6-300x169.jpg 300w, https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582576096608_a1d80dd75e0898f77e31fa7dadb838b6-1024x576.jpg 1024w, https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582576096608_a1d80dd75e0898f77e31fa7dadb838b6-768x432.jpg 768w, https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582576096608_a1d80dd75e0898f77e31fa7dadb838b6-600x338.jpg 600w, https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582576096608_a1d80dd75e0898f77e31fa7dadb838b6.jpg 1280w"
+                                        sizes="(max-width: 586px) 100vw, 586px" /></p>
+                                <p><img loading="lazy" class=" wp-image-2485 aligncenter"
+                                        src="https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582629303524_cf53b0dc246679883a8de3ecb9a41551-300x169.jpg"
+                                        alt="" width="587" height="330"
+                                        srcset="https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582629303524_cf53b0dc246679883a8de3ecb9a41551-300x169.jpg 300w, https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582629303524_cf53b0dc246679883a8de3ecb9a41551-1024x576.jpg 1024w, https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582629303524_cf53b0dc246679883a8de3ecb9a41551-768x432.jpg 768w, https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582629303524_cf53b0dc246679883a8de3ecb9a41551-1536x863.jpg 1536w, https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582629303524_cf53b0dc246679883a8de3ecb9a41551-2048x1151.jpg 2048w, https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582629303524_cf53b0dc246679883a8de3ecb9a41551-600x337.jpg 600w"
+                                        sizes="(max-width: 587px) 100vw, 587px" /></p>
+                                <p><img loading="lazy" class=" wp-image-2486 aligncenter"
+                                        src="https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582629425669_d95e1085c40bc5903efa2e4af0480f00-300x169.jpg"
+                                        alt="" width="592" height="334"
+                                        srcset="https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582629425669_d95e1085c40bc5903efa2e4af0480f00-300x169.jpg 300w, https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582629425669_d95e1085c40bc5903efa2e4af0480f00-1024x576.jpg 1024w, https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582629425669_d95e1085c40bc5903efa2e4af0480f00-768x432.jpg 768w, https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582629425669_d95e1085c40bc5903efa2e4af0480f00-1536x863.jpg 1536w, https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582629425669_d95e1085c40bc5903efa2e4af0480f00-2048x1151.jpg 2048w, https://daiduongad.com.vn/wp-content/uploads/2021/06/z2582629425669_d95e1085c40bc5903efa2e4af0480f00-600x337.jpg 600w"
+                                        sizes="(max-width: 592px) 100vw, 592px" /></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-xs-3" style="margin: 0px; padding: 0px;">
+                    <div class="title-product-list">
+                        <h3>Có thể bạn quan tâm</h3>
+                    </div>
+                    <div class="quant">
+                        <ul id="cothe">
+                            <li>
+                                <div class="pro-qt">
+                                    <a href="">
+                                        <img src="image/chu bien mica.png" alt="">
+                                    </a>
+                                    <div class="title-pro-qt">
+                                        <a href="#">
+                                            <h4>
+                                                Dán Decal xe ô tô
+                                            </h4>
+                                        </a>
+                                    </div>
+                                    <p class="price-2">
+                                        800.000 đ
+                                    </p>
+                                    <div class="muangy">
+                                        <a href="#">mua ngay</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pro-qt">
+                                    <a href="">
+                                        <img src="image/chu bien mica.png" alt="">
+                                    </a>
+                                    <div class="title-pro-qt">
+                                        <a href="#">
+                                            <h4>
+                                                Hộp đèn 3M Circle K Ngọc Thủy
+                                            </h4>
+                                        </a>
+                                    </div>
+                                    <p class="price-2">
+                                        800.000 đ
+                                    </p>
+                                    <div class="muangy">
+                                        <a href="#">mua ngay</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pro-qt">
+                                    <a href="">
+                                        <img src="image/chu bien mica.png" alt="">
+                                    </a>
+                                    <div class="title-pro-qt">
+                                        <a href="#">
+                                            <h4>
+                                                Backdrop - Logo mica
+                                            </h4>
+                                        </a>
+                                    </div>
+                                    <p class="price-2">
+                                        800.000 đ
+                                    </p>
+                                    <div class="muangy">
+                                        <a href="#">mua ngay</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pro-qt">
+                                    <a href="">
+                                        <img src="image/chu bien mica.png" alt="">
+                                    </a>
+                                    <div class="title-pro-qt">
+                                        <a href="#">
+                                            <h4>
+                                                Circle k Quỳnh Mai
+                                            </h4>
+                                        </a>
+                                    </div>
+                                    <p class="price-2">
+                                        800.000 đ
+                                    </p>
+                                    <div class="muangy">
+                                        <a href="#">mua ngay</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pro-qt">
+                                    <a href="">
+                                        <img src="image/chu bien mica.png" alt="">
+                                    </a>
+                                    <div class="title-pro-qt">
+                                        <a href="#">
+                                            <h4>
+                                                Circle K lạc trung
+                                            </h4>
+                                        </a>
+                                    </div>
+                                    <p class="price-2">
+                                        800.000 đ
+                                    </p>
+                                    <div class="muangy">
+                                        <a href="#">mua ngay</a>
+                                    </div>
+                                </div>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="menu2">
+                <div id="product-list">
+                    <div class="list-title-product">
+                        <h2>
+                            Sản phẩm liên quan
+                        </h2>
+                    </div>
+                    <div id="list-product">
+                        <div class="col-xs-3 col-lg-3 col-md-3">
+                            <div class="cards item">
+                                <a href="product.html">
+                                    <img src="image/chu bien mica.png" alt="Denim Jeans" style="max-width:100%">
+                                    <p>Hộp đèn 3M Circle K Ngọc Thủy</p>
+                                </a>
+                                <p class="price">650.000đ</p>
+                                <p><button>Add to Cart</button></p>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-lg-3 col-md-3">
+                            <div class="cards item">
+                                <a href="product.html">
+                                    <img src="image/chu bien mica.png" alt="Denim Jeans" style="max-width:100%">
+                                    <p>Hộp đèn 3M Circle K Quỳnh Mai</p>
+                                </a>
+                                <p class="price">650.000đ</p>
+                                <p><button>Add to Cart</button></p>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-lg-3 col-md-3">
+                            <div class="cards item">
+                                <a href="product.html">
+                                    <img src="image/chu bien mica.png" alt="Denim Jeans" style="max-width:100%">
+                                    <p>Hộp đèn 3M Circle K Lạc Trung</p>
+                                </a>
+                                <p class="price">650.000đ</p>
+                                <p><button>Add to Cart</button></p>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-lg-3 col-md-3">
+                            <div class="cards item">
+                                <a href="product.html">
+                                    <img src="image/chu bien mica.png" alt="Denim Jeans" style="max-width:100%">
+                                    <p>Hộp đèn 3M Circle K Lạc Trung</p>
+                                </a>
+                                <p class="price">650.000đ</p>
+                                <p><button>Add to Cart</button></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end product -->
+
+
+
+
+
+    <div class="partner">
+        <div class="container">
+            <h2>
+                Khách hàng và đối tác
+            </h2>
+            <p>
+                An Xuân tự hào trở thành đối tác chiến lược, đồng hành cùng sự phát triển của hơn <span>20.000</span>
+                doanh nghiệp
+                trong và ngoài nước, kiến tạo nên những sản phẩm chất lượng & đẳng cấp trong 10 năm qua.
+            </p>
+            <div id="sale" class="product-flashsale">
+                <div class="card">
+                    <img src="image/partner/Circle_K_logo_2016.svg.png" alt="" style="max-width:100%">
+                </div>
+                <div class="card">
+                    <img src="image/partner/Ferroli_New-logo-CCD3963FA4-seeklogo.com_.png" alt=""
+                        style="max-width:100%">
+                </div>
+                <div class="card">
+                    <img src="image/partner/images.png" alt="" style="max-width:100%">
+                </div>
+                <div class="card">
+                    <img src="image/partner/Logo-Kang_636933420194718509_HasThumb.png" alt="" style="max-width:100%">
+                </div>
+                <div class="card">
+                    <img src="image/partner/logo-samsung-2.jpg" alt="" style="max-width:100%">
+                </div>
+                <div class="card">
+                    <img src="image/partner/logo-trung-nguyen-1-637593j12208.jpg" alt="" style="max-width:100%">
+                </div>
+                <div class="card">
+                    <img src="image/partner/Vinmart_logo_sieu_thi.png" alt="" style="max-width:100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-content">
+        <div class="container">
+            <h2>KHÁCH HÀNG ĐẾN VỚI AN XUÂN BỞI</h2>
+            <p>Công ty An Xuân quyết tâm trở thành công ty quảng cáo hàng đầu trong nước</p>
+            <p>Cung cấp các sản phẩm - dịch vụ đẳng cấp với chất lượng quốc tế và am hiểu bản sắc địa phương, mang tính
+                độc đáo và sáng tạo</p>
+            <div class="col-inner">
+                <div class="col-xs-6 col-sm-6 col-md-3">
+                    <div class="col-sec-img">
+                        <img src="image/chat luong.png" alt="">
+                    </div>
+                    <div class="col-sec-conten">
+                        <b>Sản phẩm chất lượng</b>
+                        <p>Chất lượng sản phẩm dịch vụ chính là yếu tố cốt lõi tạo nên thương hiệu </p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3">
+                    <div class="col-sec-img">
+                        <img src="image/he thong.jpg" alt="">
+                    </div>
+                    <div class="col-sec-conten">
+                        <b>Hệ thống máy móc</b>
+                        <p>Mang đến không gian nội thất đẳng cấp, hiện đại và trẻ trung, cập nhật xu hướng nội thất thế
+                            giới cho quý khách. </p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3">
+                    <div class="col-sec-img">
+                        <img src="image/doi ngu.png" alt="">
+                    </div>
+                    <div class="col-sec-conten">
+                        <b>Đội ngũ nhân sự</b>
+                        <p>An Xuân luôn tự hào vì có đội ngũ nhân sự nhiệt huyết cho công việc, tận tâm với từng khách
+                            hàng. </p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3">
+                    <div class="col-sec-img">
+                        <img src="image/gia ca.jpg" alt="">
+                    </div>
+                    <div class="col-sec-conten">
+                        <b>Giá thành hợp lý</b>
+                        <p>Cân đối từng sản phẩm, lựa chọn các vật liệu kết hợp hài hòa mang đến sản phẩm chất lượng giá
+                            thành hợp lý. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="map">
+        <div class="container">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h3>Thi công quảng cáo chuyên nghiệp</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YNsJqcXADRI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h3>Sơ đồ chỉ đường</h3>
+                <div id="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.732081974897!2d105.86348121493226!3d21.003374086012066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac07ca6c532f%3A0xceb0b1289fe99bd7!2zMiBOZ8O1IDE1NiBM4bqhYyBUcnVuZywgVGhhbmggTMawxqFuZywgSGFpIELDoCBUcsawbmcsIEjDoCBO4buZaQ!5e0!3m2!1svi!2s!4v1630493818302!5m2!1svi!2s"
+                        width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <h5>
+                    Về An Xuân
+                </h5>
+                <p>
+                    AN XUÂN là Nhà sản xuất và thi công biển quảng cáo hàng đầu việt nam. chúng tôi luôn sãn sàng phục
+                    vụ quý
+                    khách hàng đem đến những sản phẩm nâng cao thương hiệu của khách hàng.
+                </p>
+                <div id="img-footer">
+                    <img src="image/lauchgovi-an xuan.png" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3" id="footer-2">
+                <h5>
+                    Thông tin khác
+                </h5>
+                <div id="thongtin">
+                    <p>
+                        Ngày làm việc từ thứ 2 đến thứ 7
+                    </p>
+                    <p>
+                        Giờ làm việc từ 8h - 18h hàng ngày
+                    </p>
+                    <p>
+                        Giao nhận hàng tất cả các ngày trong tuần
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <h5>
+                    Công ty CP quảng cáo AN XUÂN
+                </h5>
+                <div id="cty">
+                    <p> Mã số doanh nghiệp </p>
+
+                    <p>XƯỞNG SẢN XUẤT THI CÔNG QUANG CÁO </p>
+                    <p>
+                        Địa chỉ: <span>Số 2 ngõ 156 Lạc Trung, Hai Bà Trưng, Hà Nội</span>
+                    </p>
+                    <p>
+                        Điện thoại & Zalo: <span>0915 593 339</span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3">
+                <h5>
+                    Hỗ trợ khách hàng
+                </h5>
+                <div id="hotro">
+                    <p>
+                        Tư vấn: <span>0915 593 339 </span>
+                    </p>
+                    <p>
+                        Thiết kế: <span>0915 593 339</span>
+                    </p>
+                    <p>
+                        Email: <span>anxuanjsc@gmail.com</span>
+                    </p>
+                    <p>
+                        Website: <span>anxuanjsc.com.vn</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-bot">
+        <div class="container">
+            Copyright [2021] © Bản quyền thuộc về Công Ty CP Biển Quảng Cáo AN XUÂN
+        </div>
+    </div>
+
+    <script>
+        function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            var imgText = document.getElementById("imgtext");
+            expandImg.src = imgs.src;
+            imgText.innerHTML = imgs.alt;
+            // expandImg.parentElement.style.display = "block";
+        }
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
