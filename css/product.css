@@ -1,398 +1,413 @@
-ol,ul{
-    margin-top: 0;
-    margin-bottom: 0;
-    
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
-li{
-    list-style: none;
-    text-decoration: none;
+li {
+  list-style: none;
+  text-decoration: none;
 }
 .breadcrumb {
-    padding: 8px 15px;
-    margin-bottom: 0px;
-    list-style: none;
-    background-color: #f5f5f5;
-    border-radius: 4px;
+  padding: 8px 15px;
+  margin-bottom: 0px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
 }
-#product{
-    background-color: #fff;
+#product {
+  background-color: #fff;
 }
 /* abscna */
 #product-item-type {
-    padding-bottom: 20px;
-    background-color: #f5f5f5;
-  }
-  #product-ct {
-    background-color: #f5f5f5;
-  }
-  #bearcum .active {
-    color: orangered;
-    font-size: 15px;
-    font-weight: 600;
-  }
-  #bearcum li a:hover {
-    text-decoration: none;
-    color: orangered;
-  }
-  
-  .beacum {
-    background-color: #eee;
-  }
-  
-  ul.breadcrumb {
-    padding: 10px 16px;
-    list-style: none;
-  }
-  
-  /* Display list items side by side */
-  
-  ul.breadcrumb li {
-    display: inline;
-    font-size: 18px;
-  }
-  
-  /* Add a slash symbol (/) before/behind each list item */
-  
-  ul.breadcrumb li + li:before {
-    padding: 8px;
-    color: black;
-    content: "/\00a0";
-  }
-  
-  /* Add a color to all links inside the list */
-  
-  ul.breadcrumb li a {
-    color: #0275d8;
-    text-decoration: none;
-  }
-  
-  /* Add a color on mouse-over */
-  
-  ul.breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: underline;
-  }
-  
-  .chitiet {
-    margin-bottom: 5px;
-  }
-  
-  #content {
-    padding: 45px 0;
-    /* background: #ccc; */
-  }
-  
-  #content.space-top-none {
-    margin-top: 0;
-    padding-top: 0;
-  }
-  
-  #content.space-bottom-none {
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    font-family: Arial;
-  }
-  .button-thanhtoan p {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* The grid: Four equal columns that floats next to each other */
-  
-  .column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-  }
-  
-  /* Style the images inside the grid */
-  
-  .column img {
-    opacity: 0.8;
-    cursor: pointer;
-  }
-  
-  .column img:hover {
-    opacity: 1;
-  }
-  
-  /* Clear floats after the columns */
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* The expanding image container */
-  
-  .container {
-    position: relative;
-  }
-  
-  .single-item-title {
-    border-bottom: 1px solid #fbf1f1;
-    color: #0c0c0c;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 29px;
-    margin: 0;
-    text-align: left;
-  }
-  
-  .single-item-price {
-    border-bottom: 1px solid #fbf1f1;
-    padding: 0 0 14px 0;
-  }
-  
- 
-  .flash-sale {
-    color: #d30606;
-    font-weight: 700;
-    font-size: 20px;
-    position: relative;
-    top: 10px;
-  }
-  
+  padding-bottom: 20px;
+  background-color: #f5f5f5;
+}
+#product-ct {
+  background-color: #f5f5f5;
+}
+#bearcum .active {
+  color: orangered;
+  font-size: 15px;
+  font-weight: 600;
+}
+#bearcum li a:hover {
+  text-decoration: none;
+  color: orangered;
+}
 
-  
-  .rm-icondesktop-price {
-    color: #fff;
-    padding: 3px 10px 3px 15px;
-    margin-top: 13px !important;
-    font-size: 12px;
-    background: yellowgreen;
-    border-radius: 30px 0 0 30px;
-    position: relative;
-    top: 5px;
-    left: 20px;
-  }
-  
-  /* Expanding image text */
-  
-  .form-button {
-    border-bottom: 1px solid #fbf1f1;
-    display: inline-block;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-    width: 100%;
-  }
-  
-  .theloai {
-    display: flex;
-    line-height: 35px;
-  }
-  
-  .theloai label {
-    font-size: 17px;
-    font-weight: 300;
-    color: black;
-  }
-  .baoqr {
-    padding: 30px 0;
-  }
-  .theloai select {
-    margin-left: 30px;
-    width: 35%;
-    height: 35px;
-    padding: 5px 10px;
-  }
-  
-  .policy li {
-    border-bottom: 1px solid #fbf1f1;
-    border-top: 1px solid #fbf1f1;
-    padding: 6px 20px;
-    font-size: 16px;
-    color: black;
-  }
-  .policy i {
-    font-size: 16px;
-    margin-right: 10px;
-  }
-  .policy a {
-    color: black;
-  }
-  .policy a:hover {
-    text-decoration: none;
-    color: black;
-  }
-  .qr-pay {
-    background: #e9f7ff;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    padding: 6px 10px;
-    float: left;
-    text-align: left;
-    margin: 20px 0px 13px 0px;
-    width: 100%;
-  }
-  
-  .qr-pay img {
-    display: block;
-    float: left;
-    width: 15%;
-  }
-  
-  .text-qr {
-    width: 84%;
-    float: left;
-    text-align: justify;
-  }
-  
-  .text-qr p {
-    font-size: 14px;
-    margin: 0 !important;
-    display: inline;
-  }
-  
-  .text-qr a {
-    color: black;
+.beacum {
+  background-color: #eee;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+/* Display list items side by side */
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.chitiet {
+  margin-bottom: 5px;
+}
+
+#content {
+  padding: 45px 0;
+  /* background: #ccc; */
+}
+
+#content.space-top-none {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#content.space-bottom-none {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+.button-thanhtoan p {
+  margin: 0;
+  padding: 0;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+
+.container {
+  position: relative;
+}
+
+.single-item-title {
+  border-bottom: 1px solid #fbf1f1;
+  color: #0c0c0c;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  margin: 0;
+  text-align: left;
+}
+
+.single-item-price {
+  border-bottom: 1px solid #fbf1f1;
+  padding: 0 0 14px 0;
+}
+
+.flash-sale {
+  color: #d30606;
+  font-weight: 700;
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+}
+
+.rm-icondesktop-price {
+  color: #fff;
+  padding: 3px 10px 3px 15px;
+  margin-top: 13px !important;
+  font-size: 12px;
+  background: yellowgreen;
+  border-radius: 30px 0 0 30px;
+  position: relative;
+  top: 5px;
+  left: 20px;
+}
+
+/* Expanding image text */
+
+.form-button {
+  border-bottom: 1px solid #fbf1f1;
+  display: inline-block;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.theloai {
+  display: flex;
+  line-height: 35px;
+}
+
+.theloai label {
+  font-size: 17px;
+  font-weight: 300;
+  color: black;
+}
+.baoqr {
+  padding: 30px 0;
+}
+.theloai select {
+  margin-left: 30px;
+  width: 35%;
+  height: 35px;
+  padding: 5px 10px;
+}
+
+.policy li {
+  border-bottom: 1px solid #fbf1f1;
+  border-top: 1px solid #fbf1f1;
+  padding: 6px 20px;
+  font-size: 16px;
+  color: black;
+}
+.policy i {
+  font-size: 16px;
+  margin-right: 10px;
+}
+.policy a {
+  color: black;
+}
+.policy a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.thanhtoan-ol {
+  margin: 20px 0;
+}
+.thanhtoan-ol p {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: cadetblue;
+  line-height: 30px;
+  text-align: center;
+  float: left;
+  margin-right: 20px;
+}
+
+.thanhtoan-ol a {
+  color: #d30606;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.button-thanhtoan {
+  margin-top: 13px;
+  color: black;
+  font-size: 14px;
+  padding: 8px 5px;
+  line-height: 18px;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background: #f9d326;
+  height: 55px;
+  font-weight: 650;
+}
+
+.button-thanhtoan:hover {
+  color: darkblue;
+  background: #f9d326;
+
+  margin-top: 13px;
+  font-size: 14px;
+  padding: 8px 5px;
+  line-height: 18px;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  height: 55px;
+  font-weight: 650;
+}
+
+.nav-tren {
+  background: #eee;
+  padding: 5px;
+}
+
+.nav-tren li {
+  padding: 0 10px;
+  border-right: 1px solid black;
+}
+
+table {
+  border: 1px solid #e2e2e2;
+  width: 100%;
+  position: relative;
+  display: table;
+}
+
+.thong-so tr {
+  padding: 2px 10px;
+}
+#menu2 .list-title-product h2 {
+  width: 40%;
+}
+.pro-qt img {
+  width: 305px;
+  height: 305px;
+}
+.pro-qt {
+  text-align: center;
+}
+.title-pro-qt h4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 20px 15px;
+}
+.price-2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+#cothe li {
+  background-color: #fff;
+  padding: 10px 10px 40px 10px;
+  margin-bottom: 10px;
+}
+.muangy a {
+  padding: 10px 25px;
+  border-radius: 20px;
+  background: antiquewhite;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.muangy a:hover {
+  text-decoration: none;
+}
+
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 7px;
+  text-align: center;
+  font-family: arial;
+  padding: 5px 10px 10px 10px;
+  /* margin-top: 15px; */
+}
+
+.cards a > p {
+  color: black;
+  margin-top: 20px;
+}
+
+.cards a:hover {
+  text-decoration: none;
+}
+
+.price {
+  color: #e20f11;
+  font-size: 16px;
+}
+
+.cards button {
+  border: none;
+  outline: 0;
+  padding: 5px;
+  color: black;
+  /* background-color: brown; */
+  text-align: center;
+  cursor: pointer;
+  width: 150px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cards button:hover {
+  background-color: #e20f11;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  #expandedImg {
+    height: 373px;
   }
   .thanhtoan-ol {
-    margin: 20px 0;
+    margin: 0px;
   }
-  .thanhtoan-ol p {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: cadetblue;
-    line-height: 30px;
+  .baoqr {
+    padding: 0px;
+  }
+  .title-product-list h3 {
+    font-size: 12px;
     text-align: center;
-    float: left;
-    margin-right: 20px;
-  }
-  
-  .thanhtoan-ol a {
-    color: #d30606;
-    font-size: 18px;
     font-weight: 600;
-  }
-  
-  .button-thanhtoan {
-    margin-top: 13px;
-    color: black;
-    font-size: 14px;
-    padding: 8px 5px;
-    line-height: 18px;
-    width: 100%;
-    border-radius: 5px;
-    text-align: center;
-    cursor: pointer;
-    background: #f9d326;
-    height: 55px;
-    font-weight: 650;
-  }
-  
-  .button-thanhtoan:hover {
-    color: darkblue;
-    background: #f9d326;
-  
-    margin-top: 13px;
-    font-size: 14px;
-    padding: 8px 5px;
-    line-height: 18px;
-    width: 100%;
-    border-radius: 5px;
-    text-align: center;
-    height: 55px;
-    font-weight: 650;
-  }
-  
-  .nav-tren {
-    background: #eee;
-    padding: 5px;
-  }
-  
-  .nav-tren li {
-    padding: 0 10px;
-    border-right: 1px solid black;
-  }
-  
-  table {
-    border: 1px solid #e2e2e2;
-    width: 100%;
-    position: relative;
-    display: table;
-  }
-  
-  .thong-so tr {
-    padding: 2px 10px;
-  }
-  #menu2 .list-title-product h2 {
-    width: 40%;
+    color: #d30606;
   }
   .pro-qt img {
     width: 305px;
-    height: 305px;
-  }
-  .pro-qt {
-    text-align: center;
-  }
-  .title-pro-qt h4 {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding: 20px 15px;
-  }
-  .price-2 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
-    font-size: 17px;
-    color: red;
-    margin: 0;
-    padding: 0;
-  }
-  #cothe li {
-    background-color: #fff;
-    padding: 10px 10px 40px 10px;
-    margin-bottom: 10px;
+    height: 230px;
   }
   .muangy a {
-    padding: 10px 25px;
+    padding: 5px 20px;
     border-radius: 20px;
     background: antiquewhite;
     display: inline-block;
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 700;
   }
-  .muangy a:hover {
-    text-decoration: none;
-  }
-  
-.cards {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: 7px;
-    text-align: center;
-    font-family: arial;
-    padding: 5px 10px 10px 10px;
-    /* margin-top: 15px; */
-  }
-  
-  .cards a > p {
-    color: black;
-    margin-top: 20px;
-  }
-  
-  .cards a:hover {
-    text-decoration: none;
-  }
-  
-  .price {
-    color: #e20f11;
-    font-size: 16px;
-  }
-  
   .cards button {
     border: none;
     outline: 0;
@@ -401,65 +416,16 @@ li{
     /* background-color: brown; */
     text-align: center;
     cursor: pointer;
-    width: 150px;
+    width: 100px;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
   }
-  
-  .cards button:hover {
-    background-color: #e20f11;
-    color: white;
+  .cards a > p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+    margin-top: 20px;
   }
-  
-  @media screen and (max-width: 768px) {
-    #expandedImg {
-      height: 373px;
-    }
-    .thanhtoan-ol {
-      margin: 0px;
-    }
-    .baoqr {
-      padding: 0px;
-    }
-    .title-product-list h3 {
-      font-size: 12px;
-      text-align: center;
-      font-weight: 600;
-      color: #d30606;
-    }
-    .pro-qt img {
-      width: 305px;
-      height: 230px;
-    }
-    .muangy a {
-      padding: 5px 20px;
-      border-radius: 20px;
-      background: antiquewhite;
-      display: inline-block;
-      margin-top: 20px;
-      font-size: 13px;
-      font-weight: 700;
-    }
-    .cards button {
-        border: none;
-        outline: 0;
-        padding: 5px;
-        color: black;
-        /* background-color: brown; */
-        text-align: center;
-        cursor: pointer;
-        width: 100px;
-        border-radius: 30px;
-        font-size: 12px;
-        font-weight: 600;
-      }
-      .cards a > p {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        color: black;
-        margin-top: 20px;
-      }
-  }
-  
+}
