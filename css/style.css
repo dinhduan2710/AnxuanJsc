@@ -73,26 +73,28 @@ section {
 .btn:hover {
   letter-spacing: 0.2rem;
 }
-#header-logo{
+#header-logo {
   background-color: #fff;
   display: flex;
   padding: 5px 0;
 }
 
-#logo{
+#logo {
+  margin-left: 25px;
   display: inline-block;
   float: left;
-  
 }
-.header-left{
+.header-left {
   display: flex;
-  margin-top: 20px;
- 
+  padding-top: 15px;
 }
-#search{
+#search-tong {
+  margin: auto;
+}
+#search {
   margin-left: 25px;
 }
-#search input{
+#search input {
   border-radius: 10px 0 0 10px;
   width: 270px;
   height: 30px;
@@ -101,7 +103,7 @@ section {
   border: 1px solid black;
   border-right: none;
 }
-#search button{
+#search button {
   float: left;
   width: 30px;
   height: 30px;
@@ -110,26 +112,28 @@ section {
   border-left: none;
 }
 
-#hotline{
+#hotline {
   display: flex;
 }
-#hotline h4{
+#hotline h4 {
   padding: 0;
   margin: 0;
 }
-#hotline img{
+#hotline img {
   margin-right: 20px;
 }
-#hotline .text-hot{
+#hotline .text-hot {
   margin-top: 5px;
   text-align: center;
 }
-#hotline span{
+#hotline span {
   color: #d60404;
   font-size: 16px;
   font-weight: 700;
 }
-
+.header {
+  background-color: #00483d;
+}
 .header .logo img {
   height: 6rem;
 }
@@ -141,9 +145,9 @@ section {
   justify-content: space-around;
 }
 .header .navbar a {
-  margin: 0 2rem;
+  padding: 0 2rem;
   font-size: 1.6rem;
-  color: #333;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -168,7 +172,7 @@ section {
 
 .list-item-category {
   position: relative;
-  color: #333;
+  color: #fff;
   font-size: 1.6rem;
   /* width: 200px; */
   margin-right: 20px;
@@ -204,7 +208,7 @@ section {
 }
 .header .navbar .list-item-category .list-item a {
   display: block;
-  padding: 5px 10px;
+  padding: 5px 25psx;
 }
 .header .navbar .list-item-category .list-item li {
   border-top: 1px solid #ccc;
@@ -214,6 +218,7 @@ section {
 }
 .header .navbar .list-item-category .list-item a:hover {
   color: var(--black);
+  background-color: #00483d;
   border-bottom: unset;
 }
 
@@ -233,9 +238,10 @@ section {
   border: unset;
   background-color: #869791;
 }
+
 .product {
   margin-top: 50px;
-  background-color: #fff;
+ 
 }
 .product h2 {
   margin: 20px 0;
@@ -377,7 +383,7 @@ section {
   padding: 40px 0 60px 0;
   color: #fff;
 }
-#footer span{
+#footer span {
   color: #f4a950;
   font-weight: 600;
 }
@@ -399,7 +405,7 @@ section {
   padding: 10px 0;
   text-align: center;
 }
-.hideDesktop{
+.hideDesktop {
   display: none;
 }
 /* media queries  */
@@ -418,8 +424,7 @@ section {
 }
 
 @media (max-width: 768px) {
-
-  .header-left{
+  .header-left {
     display: none;
   }
   #menu-btn {
@@ -429,7 +434,7 @@ section {
     font-size: 2.5rem;
     margin-left: 2rem;
   }
-  .header{
+  .header {
     padding: 0;
   }
   .header .navbar {
@@ -512,31 +517,31 @@ section {
     margin: 10px 0;
     height: 270px;
   }
-  .xxxxxx{
+  .xxxxxx {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
     align-items: center;
   }
-  #header-logo .container{
+  #header-logo .container {
     width: 100%;
   }
-  .logo img{
+  .logo img {
     width: 50px;
   }
-  .hideDesktop{
+  .hideDesktop {
     display: block;
     position: relative;
     margin: 0 10px;
   }
-  #search button{
+  #search button {
     position: absolute;
     top: 0;
     right: 15px;
     background: transparent;
     border: 0;
   }
-  #search input{
+  #search input {
     width: 90%;
     padding: 0;
     border-radius: 15px;
@@ -544,17 +549,16 @@ section {
     padding: 0 5px;
     font-size: 12px;
   }
-  #search{
+  #search {
     margin-left: 0;
   }
-
 }
 
 @media (max-width: 450px) {
   html {
     font-size: 50%;
   }
-  #footer-bot{
+  #footer-bot {
     padding: 10px 10px;
   }
 }
