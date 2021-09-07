@@ -138,6 +138,7 @@ section {
   display: flex;
   align-items: center;
   margin-bottom: unset;
+  justify-content: space-around;
 }
 .header .navbar a {
   margin: 0 2rem;
@@ -184,7 +185,8 @@ section {
   top: 11px;
   left: 0;
   width: 240px;
-  padding-top: 40px;
+  padding-top: calc(100% - 125px);
+  z-index: 1;
 }
 .list-item-category .list-item a {
   color: #333;
@@ -397,6 +399,9 @@ section {
   padding: 10px 0;
   text-align: center;
 }
+.hideDesktop{
+  display: none;
+}
 /* media queries  */
 @media (max-width: 991px) {
   html {
@@ -413,21 +418,35 @@ section {
 }
 
 @media (max-width: 768px) {
+
+  .header-left{
+    display: none;
+  }
   #menu-btn {
     display: inline-block;
+    color: #164883;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
   }
-
+  .header{
+    padding: 0;
+  }
   .header .navbar {
     position: absolute;
-    top: 100%;
+    top: 0;
     right: -100%;
     background: #fff;
     width: 30rem;
-    height: calc(100vh - 9.5rem);
+    height: calc(100vh - 1.5rem);
+    display: none;
   }
 
   .header .navbar.active {
     right: 0;
+    z-index: 16;
+    top: 45px;
+    display: block;
   }
 
   .header .navbar a,
@@ -459,15 +478,12 @@ section {
   .home .content p {
     font-size: 1.5rem;
   }
-  .header .navbar {
-    display: unset;
-  }
   .slide-banner .carousel-inner {
     height: 200px;
   }
-  .slide-banner {
+  /* .slide-banner {
     margin-top: 75px;
-  }
+  } */
   .map iframe {
     width: 100%;
   }
@@ -496,6 +512,42 @@ section {
     margin: 10px 0;
     height: 270px;
   }
+  .xxxxxx{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+  }
+  #header-logo .container{
+    width: 100%;
+  }
+  .logo img{
+    width: 50px;
+  }
+  .hideDesktop{
+    display: block;
+    position: relative;
+    margin: 0 10px;
+  }
+  #search button{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    background: transparent;
+    border: 0;
+  }
+  #search input{
+    width: 90%;
+    padding: 0;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+    padding: 0 5px;
+    font-size: 12px;
+  }
+  #search{
+    margin-left: 0;
+  }
+
 }
 
 @media (max-width: 450px) {
