@@ -562,6 +562,15 @@ section {
   #search {
     margin-left: 0;
   }
+  .right-mobile{
+    display: flex;
+    align-items: center;
+  }
+  .cart{
+    width: 25px;
+    height: 23px;
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 450px) {

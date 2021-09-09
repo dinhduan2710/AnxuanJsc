@@ -106,240 +106,242 @@
                     </h3>
                     <div class="clearfix">
                     </div>
-                    <table class="shop-table">
-                        <thead>
-                            <tr>
-                                <th>
-                                    Hình ảnh
-                                </th>
-                                <th>
-                                    Tên sản phẩm
-                                </th>
-                                <th>
-                                    Giá tiền
-                                </th>
-                                <th>
-                                    Số lượng
-                                </th>
-                                <th>
-                                    Thành tiền
-                                </th>
-                                <th>
-                                    Xóa
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <img src="image/chu bien mica.png" alt="">
-                                </td>
-                                <td>
-                                    <div class="shop-details">
-                                        <div class="productname">
-                                            Lincoln Corner Unit Products
+                    <div style="overflow-x: auto;">
+                        <table class="shop-table">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Hình ảnh
+                                    </th>
+                                    <th>
+                                        Tên sản phẩm
+                                    </th>
+                                    <th>
+                                        Giá tiền
+                                    </th>
+                                    <th>
+                                        Số lượng
+                                    </th>
+                                    <th>
+                                        Thành tiền
+                                    </th>
+                                    <th>
+                                        Xóa
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img src="image/chu bien mica.png" alt="">
+                                    </td>
+                                    <td>
+                                        <div class="shop-details">
+                                            <div class="productname">
+                                                Lincoln Corner Unit Products
+                                            </div>
+                                            <!-- <p>
+                                                <img alt="" src="images/star.png">
+                                                <a class="review_num" href="#">
+                                                    02 Review(s)
+                                                </a>
+                                            </p>
+                                            <div class="color-choser">
+                                                <span class="text">
+                                                    Product Color :
+                                                </span>
+                                                <ul>
+                                                    <li>
+                                                        <a class="black-bg " href="#">
+                                                            black
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="red-bg" href="#">
+                                                            light red
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p>
+                                                Product Code :
+                                                <strong class="pcode">
+                                                    Dress 120
+                                                </strong>
+                                            </p> -->
                                         </div>
-                                        <!-- <p>
-                                            <img alt="" src="images/star.png">
-                                            <a class="review_num" href="#">
-                                                02 Review(s)
-                                            </a>
-                                        </p>
-                                        <div class="color-choser">
-                                            <span class="text">
-                                                Product Color :
-                                            </span>
-                                            <ul>
-                                                <li>
-                                                    <a class="black-bg " href="#">
-                                                        black
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="red-bg" href="#">
-                                                        light red
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <p>
-                                            Product Code :
-                                            <strong class="pcode">
-                                                Dress 120
-                                            </strong>
-                                        </p> -->
-                                    </div>
-                                </td>
-                                <td>
-                                    <h5>
-                                        $200.00
-                                    </h5>
-                                </td>
-                                <td class="quanty">
-                                    <input type="text" name="quantity" id="" value="1" maxlength="10"
-                                        onchange="updateCart(this.value,'{{$item->rowId}}')">
-                                </td>
-                                <td>
-                                    <h5>
-                                        <strong class="red">
+                                    </td>
+                                    <td>
+                                        <h5>
                                             $200.00
-                                        </strong>
-                                    </h5>
-                                </td>
-                                <td>
-                                    <a href="#">
-                                        <img src="image/remove.png" alt="">
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <img src="image/chu bien mica.png" alt="">
-                                </td>
-                                <td>
-                                    <div class="shop-details">
-                                        <div class="productname">
-                                            Lincoln Corner Unit Products
-                                        </div>
-                                        <!-- <p>
-                                            <img alt="" src="images/star.png">
-                                            <a class="review_num" href="#">
-                                                02 Review(s)
-                                            </a>
-                                        </p>
-                                        <div class="color-choser">
-                                            <span class="text">
-                                                Product Color :
-                                            </span>
-                                            <ul>
-                                                <li>
-                                                    <a class="gray-bg" href="#">
-                                                        pink
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="black-bg " href="#">
-                                                        black
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <p>
-                                            Product Code :
-                                            <strong class="pcode">
-                                                Dress 132
+                                        </h5>
+                                    </td>
+                                    <td class="quanty">
+                                        <input type="text" name="quantity" id="" value="1" maxlength="10"
+                                            onchange="updateCart(this.value,'{{$item->rowId}}')">
+                                    </td>
+                                    <td>
+                                        <h5>
+                                            <strong class="red">
+                                                $200.00
                                             </strong>
-                                        </p> -->
-                                    </div>
-                                </td>
-                                <td>
-                                    <h5>
-                                        $200.00
-                                    </h5>
-                                </td>
-                                <td class="quanty">
-                                    <input type="text" name="quantity" id="" value="1" maxlength="10"
-                                        onchange="updateCart(this.value,'{{$item->rowId}}')">
-                                </td>
-                                <td>
-                                    <h5>
-                                        <strong class="red">
+                                        </h5>
+                                    </td>
+                                    <td>
+                                        <a href="#">
+                                            <img src="image/remove.png" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="image/chu bien mica.png" alt="">
+                                    </td>
+                                    <td>
+                                        <div class="shop-details">
+                                            <div class="productname">
+                                                Lincoln Corner Unit Products
+                                            </div>
+                                            <!-- <p>
+                                                <img alt="" src="images/star.png">
+                                                <a class="review_num" href="#">
+                                                    02 Review(s)
+                                                </a>
+                                            </p>
+                                            <div class="color-choser">
+                                                <span class="text">
+                                                    Product Color :
+                                                </span>
+                                                <ul>
+                                                    <li>
+                                                        <a class="gray-bg" href="#">
+                                                            pink
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="black-bg " href="#">
+                                                            black
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p>
+                                                Product Code :
+                                                <strong class="pcode">
+                                                    Dress 132
+                                                </strong>
+                                            </p> -->
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h5>
                                             $200.00
-                                        </strong>
-                                    </h5>
-                                </td>
-                                <td>
-                                    <a href="#">
-                                        <img src="image/remove.png" alt="">
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <img src="image/chu bien mica.png" alt="">
-                                </td>
-                                <td>
-                                    <div class="shop-details">
-                                        <div class="productname">
-                                            Lincoln Corner Unit Products
-                                        </div>
-                                        <!-- <p>
-                                            <img alt="" src="images/star.png">
-                                            <a class="review_num" href="#">
-                                                02 Review(s)
-                                            </a>
-                                        </p>
-                                        <div class="color-choser">
-                                            <span class="text">
-                                                Product Color :
-                                            </span>
-                                            <ul>
-                                                <li>
-                                                    <a class="red-bg" href="#">
-                                                        light red
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class=" yellow-bg" href="#">
-                                                        yellow"
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="black-bg " href="#">
-                                                        black
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="pink-bg" href="#">
-                                                        pink
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <p>
-                                            Product Code :
-                                            <strong class="pcode">
-                                                Dress 050
+                                        </h5>
+                                    </td>
+                                    <td class="quanty">
+                                        <input type="text" name="quantity" id="" value="1" maxlength="10"
+                                            onchange="updateCart(this.value,'{{$item->rowId}}')">
+                                    </td>
+                                    <td>
+                                        <h5>
+                                            <strong class="red">
+                                                $200.00
                                             </strong>
-                                        </p> -->
-                                    </div>
-                                </td>
-                                <td>
-                                    <h5>
-                                        $200.00
-                                    </h5>
-                                </td>
-                                <td class="quanty">
-                                    <input type="text" name="quantity" id="" value="1" maxlength="10"
-                                        onchange="updateCart(this.value,'{{$item->rowId}}')">
-                                </td>
-                                <td>
-                                    <h5>
-                                        <strong class="red">
+                                        </h5>
+                                    </td>
+                                    <td>
+                                        <a href="#">
+                                            <img src="image/remove.png" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="image/chu bien mica.png" alt="">
+                                    </td>
+                                    <td>
+                                        <div class="shop-details">
+                                            <div class="productname">
+                                                Lincoln Corner Unit Products
+                                            </div>
+                                            <!-- <p>
+                                                <img alt="" src="images/star.png">
+                                                <a class="review_num" href="#">
+                                                    02 Review(s)
+                                                </a>
+                                            </p>
+                                            <div class="color-choser">
+                                                <span class="text">
+                                                    Product Color :
+                                                </span>
+                                                <ul>
+                                                    <li>
+                                                        <a class="red-bg" href="#">
+                                                            light red
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class=" yellow-bg" href="#">
+                                                            yellow"
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="black-bg " href="#">
+                                                            black
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="pink-bg" href="#">
+                                                            pink
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <p>
+                                                Product Code :
+                                                <strong class="pcode">
+                                                    Dress 050
+                                                </strong>
+                                            </p> -->
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h5>
                                             $200.00
-                                        </strong>
-                                    </h5>
-                                </td>
-                                <td>
-                                    <a href="#">
-                                        <img src="image/remove.png" alt="">
-                                    </a>
-                                </td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td colspan="6">
-                                    <button class="pull-left add-cart">
-                                       <a href=""> Continue Shopping</a>
-                                    </button>
-                                    <!-- <button class=" pull-right">
-                                        Update Shopping Cart
-                                    </button> -->
-                                </td>
-                            </tr>
-                        </tfoot>
-                    </table>
+                                        </h5>
+                                    </td>
+                                    <td class="quanty">
+                                        <input type="text" name="quantity" id="" value="1" maxlength="10"
+                                            onchange="updateCart(this.value,'{{$item->rowId}}')">
+                                    </td>
+                                    <td>
+                                        <h5>
+                                            <strong class="red">
+                                                $200.00
+                                            </strong>
+                                        </h5>
+                                    </td>
+                                    <td>
+                                        <a href="#">
+                                            <img src="image/remove.png" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="6">
+                                        <button class="pull-left add-cart">
+                                        <a href=""> Continue Shopping</a>
+                                        </button>
+                                        <!-- <button class=" pull-right">
+                                            Update Shopping Cart
+                                        </button> -->
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
                     <div class="clearfix">
                     </div>
                     <div class="row">
